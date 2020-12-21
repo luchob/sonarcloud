@@ -25,6 +25,7 @@ public class CalculatorImplTest {
     Assertions.assertEquals(expected, actual);
   }
 
+  @ParameterizedTest
   @DisplayName("Should sort the array correctly")
   @MethodSource("arrayProvider")
   void testBubbleSort(int unsorted[], int expected[]) {
