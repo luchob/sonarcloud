@@ -7,7 +7,7 @@ The results of the code analysis and the code coverage are uploaded [here](https
 
 # Configuration
 
-The JaCoCo and the Sonar scanner are imported:
+The JaCoCo and the Sonar scanner are imported (please check for newer version of the Sonarqube plugin):
 
 ```
 plugins {
