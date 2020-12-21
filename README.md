@@ -50,7 +50,7 @@ Every project gets a secret token so that the analysis results can be uploaded t
 The token can be used as an environment variable with name `SONAR_TOKEN`.
 E.g. before running the analysis on Mac export the environment variable like this:
 
-`setenv SONAR_TOKEN <your-token-here>`
+`export SONAR_TOKEN <your-token-here>`
 
 Finally for gralde run the analysis:
 
